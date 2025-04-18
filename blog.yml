@@ -36,6 +36,7 @@ spec:
     spec:
       containers:
       - name: blogctn
-        image: shjtest/aws:green
+        image: hub.aws9.pri/test/blog:1.0
+        imagePullPolicy: Always
         ports:
           - containerPort: 80   
